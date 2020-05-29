@@ -1,5 +1,5 @@
 exports.handler = function(event, context, callback) {
-    calllback(null, {
+    callback(null, {
         statusCode: 200,
         body: "Welcome to the super secret area"
     })
